@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPER OVER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+    <div class="column">
+        <img class="profile-icon" src="img/India.png" height="150px" width="150px" alt="Logo">
+       <span class="name" id="team-1-name"></span>
+        <div class="row round-runs" id="team-1-round-runs">
+            <span class="column">-</span>
+            <span class="column">-</span>
+            <span class="column">-</span>
+            <span class="cloumn">-</span>
+            <span class="column">-</span>
+            <span class="column">-</span>
+        </div>
+    </div>
+    <div class="column">
+       <div class="row score">
+            <span id="team-1-score"></span>
+            <span>-</span>
+            <span id="team-2-score"></span>
+       </div>
+    </div>
+    <div class="column">
+        <img class="profile-icon" src="img/Pakistan.png" height="150px" width="150px" alt="Logo">
+        <span class="name" id="team-2-name"></span>
+        <div class="row round-runs" id="team-2-round-runs">
+            <span class="column">-</span>
+            <span class="column">-</span>
+            <span class="column">-</span>
+            <span class="column">-</span>
+            <span class="cloumn">-</span>
+            <span class="column">-</span>
+        </div>
+    </div>
+</div>
+    <div class="row">
+        <button id="striker-button" onclick="ButtonClick()"></button>
+    </div>
+    <!--Result-->
+    <div class="row" id="result" hidden></div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
